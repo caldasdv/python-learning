@@ -7,7 +7,7 @@ num3: complex = 3.000053462873642;
 print(num1,num2,num3)
 print("\n")
 
-# text stypes
+# text types
 
 nome: str = "david"
 
@@ -19,15 +19,15 @@ print(nome,"\n")
 
 numbers = [1,2,3,4,5]
 
-### aad new number to the list
+### add new number to the list
 
 numbers.append(6)
 
-### access to a element
+### access to an element
 
 print(numbers[0],"\n")
 
-### modifying a element
+### modifying an element
 
 numbers[0] = 10
 
@@ -85,7 +85,7 @@ person = dict([('name', 'John'), ('age' ,30), ('city', "New York")])
 
 print(person,"\n");
 
-# Colection(groups like)
+# Collection(groups like)
 
 ## set
 
@@ -116,7 +116,7 @@ inter_set = set1 & set2
 
 dif_set = set1 - set2
 
-#### Symetric difference
+#### Symmetric difference
 
 symdif_set = set1 ^ set2
 
@@ -144,7 +144,7 @@ inter_frozenset = frozenset1 & frozenset2
 
 dif_frozenset = frozenset1 - frozenset2
 
-#### synmetric difference
+#### symmetric difference
 
 syndif_frozenset = frozenset1 ^ frozenset2
 
