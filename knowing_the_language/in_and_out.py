@@ -1,4 +1,4 @@
-# to receive a input from the terminal we use the input("whatyouwant: ") function
+# To receive a input from the terminal, we use the input("whatyouwant: ") function
 
 ## a string receive example:
 
@@ -6,13 +6,13 @@ name = input("what's your name? ")
 
 print(f'nice to meet you {name}!')
 
-# we can manipule the end of a print with diferent ways, like: sep, end, file, flush
+# we can manipule the end of a print a few different ways like: sep, end, file, flush, ....
 
 ## There are some examples:
 
 nickname = input("what's your nickname? ")
 
-### the comum way
+### the common way
 
 print(name, nickname)
 
@@ -24,7 +24,7 @@ print(name, nickname, end = "...\n")
 
 print(name, nickname, sep="#")
 
-### with file we can export the print to a atual file, in this cade output.txt
+### with file we can export the print to a atual file, in this case output.txt
 
 with open('output.txt', 'w') as f: #creating/opennig the file
     print(name, nickname, file=f) #passing the info to the file f
