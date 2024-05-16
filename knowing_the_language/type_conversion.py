@@ -29,7 +29,7 @@ id = 156654
 
 print(str(price),str(id))
 
-## here we can put all the string and var info in one place and then print it
+## here we can put all the string and var info into one place and then print it
 
 out = f"O produto de id: {id} custa {price} reais"
 
